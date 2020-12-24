@@ -1,19 +1,46 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
+	<meta charset="utf-8">
 
-  <title>Holberton Studor Website</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
+	<title>Holberton Studor Website</title>
+	<meta name="description" content="The HTML5 Herald">
+	<meta name="author" content="SitePoint">
 
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+	<link rel="stylesheet" href="css/styles.css">
 
 </head>
 
 <body>
-<p>Hello Talisha!</p>
+<form action="/action_page.php" style="border:1px solid #ccc">
+  <div class="container">
+    <img id="logo" src="/images/holberton-circle-logo (1).png">
+    <h1>Studor Notes 💻</h1>
+   
+    <p id="info">Welcome to the Studor Notes website for Holberton Students! <br> Signup or login using your Holberton School email address below.</p>
+    <hr>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label>
+    
+
+    <div class="clearfix">
+      <button type="submit" class="login">Log In</button>
+    </div>
+  </div>
+</form>
   <script src="js/scripts.js"></script>
 </body>
 </html>
