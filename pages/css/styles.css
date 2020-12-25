@@ -23,6 +23,7 @@
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
  background-color: gray;
+ color: white;
 }
 
 .sidenav a:active {
@@ -49,4 +50,47 @@
 
 p {
   text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+ 
+}
+
+#nav {
+  width: 25%;
+}
+
+#forum {
+  width: 75%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.search {
+  margin: auto;
+  border-color: #96A0AA;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #e41c3f;
+  color: white;
+  margin: auto;
+  cursor: pointer;
+  width: 25%;
+  opacity: 0.9;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
 }
