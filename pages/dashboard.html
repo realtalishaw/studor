@@ -15,21 +15,27 @@
 <body>
 	<div class="sidenav">
 		<a href="/pages/account.html"><img src= "/images/user-account.png">Account</a>
-     <a  class="current-page" href="/pages/dashboard.html"><img class= "nav-img" src="https://img.icons8.com/windows/32/000000/chat-messages--v1.png"/>Forum</a>
-     <a href="/pages/topics.html">Topics</a>
+     <a  class="current-page" href="/pages/dashboard.html">💬 Forum</a>
+     <a href="/pages/topics.html">💡 Topics</a>
     </div>
 
     <!--body of the page -->
     <div class = "main">
-<p>🐞Bugs? Fork this repo <a href="https://github.com/realtalishaw/studor"> Studor Github</a>  and fix it or email bugs@studornotes.me </p>
+
 
 <input type="text" class="search" placeholder="Search the Forum">
 
 <!-- forum columns -->
 <div class="row">
   <div class="column" id="forum">
-    <h2>Column 1</h2>
-    <p>Some text..</p>
+    <button>sort</button>
+
+    <container>
+      <div class="forum-post">
+            <h2>Post Title</h2>
+            <p>Snippet from the post</p>
+            </div>
+    </container>
   </div>
 
   <!-- Forum Navigation Sidebar -->
@@ -46,10 +52,16 @@
     <hr>
 
     <div class="categories">
-      <p>Topic </p>
+     <span class="dot">Intros</span>
+      <p>FAQs</p>
+      <p>C Code </p>
+      <p>Betty Tips & Tricks</p>
+      <p>Mac Users</p>
+      <p>Vim Lovers</p>
+      <p>Python</p>
   </div>
 </div>
-
+<p>🐞Bugs? Fork this repo <a href="https://github.com/realtalishaw/studor"> Studor Github</a>  and fix it or email bugs@studornotes.me </p>
   <script src="js/scripts.js"></script>
 </body>
 </html>

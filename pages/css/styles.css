@@ -86,11 +86,29 @@ p {
 button {
   background-color: #e41c3f;
   color: white;
-  margin: auto;
   cursor: pointer;
-  width: 25%;
   opacity: 0.9;
   border-radius: 5px;
   border: none;
   padding: 10px;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.forum-post {
+  background-color: #F5F5F8;
+  border-radius: 5px;
+  padding: 5px;
+  margin: auto;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-flex;
+  padding: 10%;
 }
