@@ -1,3 +1,4 @@
 # HTID:16317397: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+AddType application/x-httpd-php .php .htm .html AddHandler x-httpd-php .php .htm .htm
 php_value display_errors 1
 # DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:16317397:
