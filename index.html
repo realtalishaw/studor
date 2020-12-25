@@ -7,12 +7,14 @@
 
 	<title>Studor Nores</title>
 	<link rel="stylesheet" href="css/index.css">
+  <!-- stylesheet for pageclip -->
+  <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
 
 </head>
 
 <body>
   <div class="login">
-<form action="/action_page.php" style="border:1px solid #ccc">
+<form action="https://send.pageclip.co/PKHTvSyDrhGb2GK0q9YMvFOoDVE7qjK7/signup-form" class="pageclip-form" method="post">
   <div class="container">
     <img id="logo" src="/images/holberton-circle-logo (1).png">
     <h1>Studor Notes 💻</h1>
@@ -21,7 +23,7 @@
     <hr>
 
     <label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" required>
+    <input type="text" placeholder="Enter Email" name="email" required pattern=".+@holbertonschool\.com">
 
     <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" required>
@@ -33,12 +35,17 @@
     
 
     <div class="clearfix">
-      <button type="submit">Log In</button>
+      <button type="submit" class="pageclip-form__submit">
+    <span>Log In</span>
+  </button>
     </div>
   </div>
 </form>
 <a href="/pages/dashboard.html">link to dashboard</a>
 </div>
   <script src="js/scripts.js"></script>
+  <!-- Pageclip js -->
+  <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+
 </body>
 </html>
