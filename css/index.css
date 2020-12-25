@@ -26,7 +26,6 @@ button {
   padding: 14px 20px;
   margin: 0 auto;
   cursor: pointer;
-  width: 25%;
   opacity: 0.9;
   border-radius: 5px;
   border: none;
@@ -40,7 +39,6 @@ button:hover {
 /* Add padding to container elements */
 .container {
   padding: 20px;
- 
 } 
 
 /* Clear floats */
@@ -75,5 +73,8 @@ h1 {
 .login {
   height: 50%;
   margin: 0 auto;
+  border-radius: 5px;
+  width: 50%;
+
 }
 
