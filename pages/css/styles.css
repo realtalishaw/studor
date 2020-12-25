@@ -86,11 +86,14 @@ p {
 button {
   background-color: #e41c3f;
   color: white;
+  padding: 14px 20px;
+  margin: 0 auto;
   cursor: pointer;
+  width: 25%;
   opacity: 0.9;
   border-radius: 5px;
   border: none;
-  padding: 10px;
+
 }
 
 button:hover {
